@@ -145,13 +145,13 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     AudioFX \
     Backgrounds \
+    Lawnchair \
     LineageSettingsProvider \
     LineageSetupWizard \
     Eleven \
     ExactCalculator \
     Jelly \
     LockClock \
-    TrebuchetQuickStep \
     Updater \
     WeatherProvider
 

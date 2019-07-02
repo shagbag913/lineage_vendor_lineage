@@ -1,5 +1,17 @@
 LOCAL_PATH := $(call my-dir)
 
+# Lawnchair launcher
+include $(CLEAR_VARS)
+LOCAL_MODULE := Lawnchair
+LOCAL_SRC_FILES := apps/Lawnchair.apk
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+LOCAL_OVERRIDES_PACKAGES := Home Launcher2 Launcher3 Trebuchet TrebuchetQuickStep
+LOCAL_MODULE_CLASS := APPS
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_PRIVILEGED_MODULE := true
+include $(BUILD_PREBUILT)
+
 # a wrapper for curl which provides wget syntax, for compatibility
 include $(CLEAR_VARS)
 LOCAL_MODULE := wget
