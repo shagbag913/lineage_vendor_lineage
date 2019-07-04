@@ -56,6 +56,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/lineage/config/permissions/lineage-sysconfig.xml:system/etc/sysconfig/lineage-sysconfig.xml
 
+# Lineage default permissions
+PRODUCT_COPY_FILES += \
+    vendor/lineage/prebuilt/common/etc/default-permissions/default-permissions-lineage.xml:system/etc/default-permissions/default-permissions-lineage.xml
+
 # init.d support
 PRODUCT_COPY_FILES += \
     vendor/lineage/prebuilt/common/etc/init.d/00banner:system/etc/init.d/00banner \
