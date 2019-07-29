@@ -157,6 +157,9 @@ ART_BUILD_HOST_DEBUG := false
 # Do not generate dex2oat minidebug info
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     dalvik.vm.dex2oat-minidebuginfo=false
+
+# Do not add dexpreopt debug info
+WITH_DEXPREOPT_DEBUG_INFO := false
 endif
 
 # Bootanimation
