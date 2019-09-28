@@ -143,13 +143,15 @@ PRODUCT_PACKAGES += \
     LineageParts \
     LineageSettingsProvider \
     LineageSetupWizard \
-    Eleven \
     Jelly \
     LockClock \
     Profiles \
     TrebuchetQuickStep \
     Updater \
     WeatherProvider
+
+PRODUCT_PACKAGES_DEBUG += \
+    Eleven
 
 # Berry styles
 PRODUCT_PACKAGES += \
